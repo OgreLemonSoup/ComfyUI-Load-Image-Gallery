@@ -3,7 +3,7 @@ import { app } from "../../scripts/app.js";
 // Adds a gallery to the Load Image node
 
 const ext = {
-    name: "Comfy.ContextMenuGallery",
+    name: "Comfy.LoadImageGallery",
     async init() {
         const ctxMenu = LiteGraph.ContextMenu;
         const style = document.createElement('style');
