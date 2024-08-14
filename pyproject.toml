@@ -1,8 +1,8 @@
 [project]
 name = "comfyui-load-image-gallery"
 description = "Adds a gallery to the Load Image node"
-version = "1.0.0"
-license = {file = "LICENSE"}
+version = "1.0"
+# license = {file = "LICENSE"}
 
 [project.urls]
 Repository = "https://github.com/OgreLemonSoup/ComfyUI-Load-Image-Gallery"
