@@ -9,6 +9,6 @@ Repository = "https://github.com/OgreLemonSoup/ComfyUI-Load-Image-Gallery"
 #  Used by Comfy Registry https://comfyregistry.org
 
 [tool.comfy]
-PublisherId = ""
+PublisherId = "ogrelemonsoup"
 DisplayName = "ComfyUI-Load-Image-Gallery"
 Icon = ""
