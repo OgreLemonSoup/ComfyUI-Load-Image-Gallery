@@ -1,7 +1,7 @@
 [project]
 name = "comfyui-load-image-gallery"
 description = "Adds a gallery to the Load Image node"
-version = "1.0.2"
+version = "1.0.3"
 # license = {file = "LICENSE"}
 
 [project.urls]
