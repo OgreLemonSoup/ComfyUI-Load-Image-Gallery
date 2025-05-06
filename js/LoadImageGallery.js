@@ -171,7 +171,7 @@ const ext = {
                     ctx.drawImage(img, srcX, srcY, srcWidth, srcHeight, 0, 0, 80, 80);
                     resolve(canvas.toDataURL("image/jpeg"));
                 };
-                img.src = `http://${location.host}/view?filename=${encodeURIComponent(file)}&type=input`;
+                img.src = `http://${location.host}/view?filename=${encodeURIComponent(file)}`;
             });
         }
 
@@ -336,7 +336,7 @@ const ext = {
 				}
 
 				//Gallery
-				if (values.length > 0 && currentNode.type === "LoadImage") {
+				if (values.length > 0 && currentNode.type.startsWith("LoadImage")) {
 					if (FirstRun) {
 						CleanDB(values);
 					}
